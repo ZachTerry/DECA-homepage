@@ -142,3 +142,9 @@ a:hover {
 
 }
 
+@media  screen and (max-width: 600px) {
+    .footer li a{
+        padding: 5px;
+    }
+}
+
