@@ -1,46 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/global.css">
-    <link rel="stylesheet" href="css/connect.css">
-    <title>UWEC Collegiate DECA</title>
-    <link rel="icon" type="image/png" href="images/logo.png"/>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/global.css">
+  <link rel="stylesheet" href="css/connect.css">
+  <title>UWEC Collegiate DECA</title>
+  <link rel="icon" type="image/png" href="images/logo.png" />
 </head>
 
 <body>
-    <div class="flex-container">
-        <div class="header">
-            <img src="images/logo.png" alt="DECA Logo" style="float: left;">
-            <h1>
-                UW-Eau Claire: Collegiate DECA &#8482;   
-            </h1>
-        </div>
-        <div class="navbar">
-                <a href="home.html" >Home</a>
-                <a href="about.html">About</a>
-                <a href="news.html">News</a>
-                <a href="events.html">Events</a>
-                <a href="competitions.html">Competitions</a>
-                <a href="photos.html">Photos</a>
-                <a href="videos.html">Videos</a>
-                <a href="resources.html">Resources</a>
-                <a href="connect.html"class="active">Deca Connect</a>
-                <a href="readings.html">Readings</a>
-                <a href="contact.html">Contact</a>
-        </div>
-        <div class="main">
-            <img src="images/team.jpg" alt="DECA team picture" style="float: center;">
+  <div class="flex-container">
+    <div class="header">
+      <img src="images/logo.png" alt="DECA Logo" style="float: left;">
+      <h1>
+        UW-Eau Claire: Collegiate DECA &#8482;
+      </h1>
+
+    </div>
+
+    <div class="navbar" id="myTopnav">
+      <a href="home.html" >Home</a>
+      <a href="about.html">About</a>
+      <a href="news.html">News</a>
+      <a href="events.html">Events</a>
+      <a href="competitions.html">Competitions</a>
+      <a href="photos.html">Photos</a>
+      <a href="videos.html">Videos</a>
+      <a href="resources.html">Resources</a>
+      <a href="connect.html" class="active">Deca Connect</a>
+      <a href="contact.html" >Contact</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+    
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "navbar") {
+          x.className += " responsive";
+        } else {
+          x.className = "navbar";
+        }
+      }
+    </script> 
+        <head>
+            <div class="mainvideo">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/N_5eee9MgNI" title="YouTube video player" frameborder="0"  allowfullscreen></iframe>
+                <p>This video explains and introduces some of the features of deca direct and deca connect.</p>
+            </div>
+        </head>
+
+        <body>
+
+
+            <div class="flex-container2">
+                <div class="flex-item-left">
+                    <a href = "https://apps.apple.com/us/app/deca-connect/id1556267315"><img src="images/phone.webp"  style="width:80px" alt="phone"> </a>
+                    <p>The deca connect app can be downladed on the app store and google play store. Review the video above for more info. The app is like a social media app, DECA Connect is DECA's online member area.</p>
+                </div>
+                <div class="flex-item-right">
+                    <a href = "https://www.deca.org/high-school-programs/scholarships/"> <img src="images/money.png" style="width:80px" alt="money"> </a>
+                    <p>
+                        DECA’s scholarship program provides over $200,000 in scholarships to high school and college DECA members at the International Career Development Conference (ICDC) each year. Many corporate partners of DECA provide scholarships through the DECA scholarship program. 
+                    </p>
+                </div>
+                <div class="flex-item-middle">
+                    
+                    <a href = "https://www.deca.org/wp-content/uploads/2016/08/hs_elevate.pdf"> <img src="images/elevate.png"  style="width:80px" alt="phone"> </a>
+                    <p>
+                       Elevate is a guide and conatins tips of DECA teams for an effective chapter program. The guide contains the best practices in the areas of communications, membership recruitment, community service, fundraising and more.
+                    </p>
+                </div>
+            </div>
             
-            <P>
-                Are you passionate about mentoring young business professionals? Do you enjoy public speaking? If so, we have an opportunity for you!
-UWEC Collegiate DECA is seeking guest speakers IN ANY INDUSTRY! Our members hail from a wide variety of majors including computer science, management, accounting, finance, economics, information systems, and many more!
-We meet on Mondays from 5:30 to 6:30 pm. Guest speakers can present remote or in person, whichever option fits your schedule!… 
-            </P>
+        </body>
         
-        </div>  
+
+
         <div class="footer">
             <ul>
                 <li><a href="https://www.facebook.com/UWECDECA/" target="_blank"><img src="images/facebook.png" alt="Facebook Logo" style="float: left;">Facebook</a></li>

@@ -1,0 +1,32 @@
+.one{
+
+    padding : 1% 5% 3% 1% 
+    
+
+}
+
+.three{
+
+    padding : 1% 5% 3% 1% 
+
+}
+.two{
+    background-color: #001F66;
+    padding : 1% 5% 3% 1% 
+
+}
+.two h2{
+    color: white;
+
+}.two p{
+    color: white;
+
+}
+.twop {
+    background-color: #001F66;
+    color: white;
+
+}
+.navbar{
+    position: fixed;
+}

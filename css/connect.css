@@ -1,0 +1,49 @@
+.flex-container2 {
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    text-align: center;
+  }
+  .flex-item-left {
+    padding: 10px;
+    flex: 33%;
+  }
+  .flex-item-left p{
+    font-size: 25px;
+  }
+  .flex-item-right p{
+    font-size: 25px;
+  }
+  
+  .flex-item-right {
+    padding: 10px;
+    flex: 33%;
+  }
+  .flex-item-middle {
+    padding: 10px;
+    flex: 33%;
+  }
+  .flex-item-middle p{
+    font-size: 25px;
+  }
+  .flex-item-middle:hover {
+    color: aqua;
+  }
+ 
+  .mainvideo {
+    display: inline;
+    padding: 5px;
+    float: center;
+}
+
+  @media (max-width: 1000px) {
+    .flex-container2 {
+      flex-direction: column;
+    }
+  }
+
+.mainvideo p {
+    font-size: 25px;
+}
+
+ 

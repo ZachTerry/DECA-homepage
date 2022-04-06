@@ -1,68 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/global.css">
-    <link rel="stylesheet" href="css/photos.css">
-    <title>UWEC Collegiate DECA</title>
-    <link rel="icon" type="image/png" href="images/logo.png"/>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/global.css">
+  <link rel="stylesheet" href="css/photos.css">
+  <title>UWEC Collegiate DECA</title>
+  <link rel="icon" type="image/png" href="images/logo.png" />
 </head>
 
 <body>
-    <div class="flex-container">
-        <div class="header">
-            <img src="images/logo.png" alt="DECA Logo" style="float: left;">
-            <h1>
-                UW-Eau Claire: Collegiate DECA &#8482;   
-            </h1>
-        </div>
-        <div class="navbar">
-                <a href="home.html" >Home</a>
-                <a href="about.html">About</a>
-                <a href="news.html">News</a>
-                <a href="events.html">Events</a>
-                <a href="competitions.html">Competitions</a>
-                <a href="photos.html"class="active">Photos</a>
-                <a href="videos.html">Videos</a>
-                <a href="resources.html">Resources</a>
-                <a href="connect.html">Deca Connect</a>
-                <a href="contact.html">Contact</a>
-        </div>
+  <div class="flex-container">
+    <div class="header">
+      <img src="images/logo.png" alt="DECA Logo" style="float: left;">
+      <h1>
+        UW-Eau Claire: Collegiate DECA &#8482;
+      </h1>
+
+    </div>
+
+    <div class="navbar" id="myTopnav">
+      <a href="home.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="news.html">News</a>
+      <a href="events.html">Events</a>
+      <a href="competitions.html">Competitions</a>
+      <a href="photos.html" class="active" >Photos</a>
+      <a href="videos.html">Videos</a>
+      <a href="resources.html">Resources</a>
+      <a href="connect.html">Deca Connect</a>
+      <a href="contact.html">Contact</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+    
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "navbar") {
+          x.className += " responsive";
+        } else {
+          x.className = "navbar";
+        }
+      }
+    </script>
         <div class="main">
             <ul>
                 <li>
                     <img src="images/team.jpg" alt="team image"> 
-                    <div class="text1">Team Photo</div>
+                    <div class="text1">Team Photo @ State in 2019</div>
                 </li>
                 <li>
                     <img src="images/team2.jpg" alt="team image">
-                    <div class="text1">Team Photo</div>
+                    <div class="text1">Team Photo @ State in 2022</div>
                 </li>
                 <li>
                     <img src="images/image.jpg" alt="team image">
-                    <div class="text1">Team Photo</div>
+                    <div class="text1">Meeting before the competition!</div>
                 </li>
                 <li>
                     <img src="images/image2.jpg" alt="team image">
-                    <div class="text1">Team Photo</div>
+                    <div class="text1">Not sure whats going on here</div>
                 </li>
                 <li>
                     <img src="images/image3.jpg" alt="team image">
-                    <div class="text1">Team Photo</div>
+                    <div class="text1">visiting the area before nationals</div>
                 </li>
                 <li>
                     <img src="images/image4.jpg" alt="team image">
-                    <div class="text1">Team Photo</div>
+                    <div class="text1">eam Photo @ State in 2018</div>
                 </li>
                 <li>
                     <img src="images/image1.jpg" alt="team image">
-                    <div class="text1">Team Photo</div>
+                    <div class="text1">Team Photo @ State in 2018</div>
                 </li>
                 <li>
                     <img src="images/image1.jpg" alt="team image">
-                    <div class="text1">Team Photo</div>
+                    <div class="text1">Team Photo @ State in 2018</div>
                 </li>
                 <li>
                     <img src="images/image1.jpg" alt="team image">
