@@ -6,7 +6,7 @@
   }
   .flex-item-left {
     padding: 10px;
-    flex: 50%;
+    flex: 33%;
   }
   .flex-item-left p{
     font-size: 25px;
@@ -17,9 +17,18 @@
   
   .flex-item-right {
     padding: 10px;
-    flex: 50%;
+    flex: 33%;
   }
-  
+  .flex-item-middle {
+    padding: 10px;
+    flex: 33%;
+  }
+  .flex-item-middle p{
+    font-size: 25px;
+  }
+  .flex-item-middle:hover {
+    color: aqua;
+  }
  
   .mainvideo {
     display: inline;
@@ -27,7 +36,7 @@
     float: center;
 }
 
-  @media (max-width: 600px) {
+  @media (max-width: 1000px) {
     .flex-container2 {
       flex-direction: column;
     }

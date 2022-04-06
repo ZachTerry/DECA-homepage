@@ -1,45 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/global.css">
-    <link rel="stylesheet" href="css/resources.css">
-    <title>UWEC Collegiate DECA</title>
-    <link rel="icon" type="image/png" href="images/logo.png"/>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/global.css">
+  <link rel="stylesheet" href="css/resources.css">
+  <title>UWEC Collegiate DECA</title>
+  <link rel="icon" type="image/png" href="images/logo.png" />
 </head>
 
 <body>
-    <div class="flex-container">
-        <div class="header">
-            <img src="images/logo.png" alt="DECA Logo" style="float: left;">
-            <h1>
-                UW-Eau Claire: Collegiate DECA &#8482;   
-            </h1>
-        </div>
-        <div class="navbar">
-                <a href="home.html" >Home</a>
-                <a href="about.html">About</a>
-                <a href="news.html">News</a>
-                <a href="events.html">Events</a>
-                <a href="competitions.html">Competitions</a>
-                <a href="photos.html">Photos</a>
-                <a href="videos.html">Videos</a>
-                <a href="resources.html"class="active">Resources</a>
-                <a href="connect.html">Deca Connect</a>
-                <a href="readings.html">Readings</a>
-                <a href="contact.html">Contact</a>
-        </div>
+  <div class="flex-container">
+    <div class="header">
+      <img src="images/logo.png" alt="DECA Logo" style="float: left;">
+      <h1>
+        UW-Eau Claire: Collegiate DECA &#8482;
+      </h1>
+
+    </div>
+ 
+    <div class="navbar" id="myTopnav">
+      <a href="home.html" >Home</a>
+      <a href="about.html">About</a>
+      <a href="news.html">News</a>
+      <a href="events.html">Events</a>
+      <a href="competitions.html">Competitions</a>
+      <a href="photos.html">Photos</a>
+      <a href="videos.html">Videos</a>
+      <a href="resources.html" class="active" >Resources</a>
+      <a href="connect.html">Deca Connect</a>
+      <a href="contact.html">Contact</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+    
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "navbar") {
+          x.className += " responsive";
+        } else {
+          x.className = "navbar";
+        }
+      }
+    </script>
         <div class="main">
-            <img src="images/team.jpg" alt="DECA team picture" style="float: center;">
+          <h2> 
+            Resources
+          </h2>
+          <div class="top">
             
-            <P>
-                Are you passionate about mentoring young business professionals? Do you enjoy public speaking? If so, we have an opportunity for you!
-UWEC Collegiate DECA is seeking guest speakers IN ANY INDUSTRY! Our members hail from a wide variety of majors including computer science, management, accounting, finance, economics, information systems, and many more!
-We meet on Mondays from 5:30 to 6:30 pm. Guest speakers can present remote or in person, whichever option fits your schedule!… 
-            </P>
-        
+            <p>
+              This page includes various resources that will be used in meeting and for refrence.
+            </p>
+          </div>
+           
+
+          <div class="flex-container2">
+            <div class="flex-item-left">
+                
+                <p><b>Best practices</b>
+                  <br><br> These links include information about the best pratices within DECA chapters. There is informaiton about meetings as well as other important things to know. 
+                </p>
+                <ul>
+                  <li> <a href = "https://www.deca.org/high-school-programs/scholarships/">Scholorships</li>
+                  <li><a href = "https://www.deca.org/high-school-programs/emerging-leader-series/elevate/">Elevate</li>
+                  <li> <a href = "https://www.deca.org/guide"> Deca Guide</li>
+                </ul>
+            </div>
+            <div class="flex-item-right">
+                
+              <p><b>Case Studies</b>
+                <br><br> These links will be used during meetings for practice. Using the last link you may find more info about a different event. 
+              </p>
+                <ul>
+                  <li> <a href = "https://www.deca.org/wp-content/uploads/2022/01/COL_CF_2021_Association_Event_1.pdf">Corp. Finance</li>
+                  <li><a href = "https://www.deca.org/wp-content/uploads/2022/01/COL_ENT_2021_Association_Event_1.pdf"> Enterpreneurship</li>
+                  <li><a href = "https://www.deca.org/college-programs/sample-case-studies-and-exams/"> More..</li>
+                </ul>
+            </div>
+            <div class="flex-item-middle">
+                
+              <p><b>National Links</b>
+                <br><br> These links include other relevant informaiton that can be used for reference of the other areas of competition.  
+              </p>
+                <ul>
+                  <li> <a href = https://www.deca.org/college-programs/challenges>Challanges</li>
+                  <li> <a href = "https://www.deca.org/wp-content/uploads/2021/08/Collegiate-DECA-2021-Guide-Stock-Market-Game.pdf">Stock Mark.</li>
+                  <li> <a href = "https://www.deca.org/college-programs/college-educational-conferences/">Confrences</li>
+                </ul>
+            </div>
+        </div>
+
+
         </div>  
         <div class="footer">
             <ul>
